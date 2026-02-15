@@ -1,9 +1,11 @@
 ---
 import Layout from '@layouts/Layout.astro'
-import Page from '@pages/directives'
+import DirectivesPage from '@pages/directives'
 ---
 
-<Layout title='Gestiones | Comité de Estudiantes de Ing. Ciencias de la Computación'
-        description='Explora las gestiones del Comité de Estudiantes de Ingeniería Ciencias de la Computación de la PUCMM Campus Santiago'>
-  <Page client:only="react" />
+<Layout
+  title="Gestiones | Comité de Estudiantes de Ing. Ciencias de la Computación"
+  description="Explora las gestiones del Comité de Estudiantes de Ingeniería Ciencias de la Computación de la PUCMM Campus Santiago"
+>
+  <DirectivesPage client:only="react" />
 </Layout>

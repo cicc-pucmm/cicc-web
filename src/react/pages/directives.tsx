@@ -5,7 +5,7 @@ import TimelineSelect from '@components/timeline/TimelineSelect'
 import Title from '@components/title/Title'
 import useDirectivesPages from '@lib/hooks/useDirectivesPage'
 
-export default function Page() {
+export default function DirectivesPage() {
   const { directivesData, isLoading, year } = useDirectivesPages()
 
   if (isLoading) {

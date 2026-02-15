@@ -1,9 +1,11 @@
 ---
 import Layout from '@layouts/Layout.astro'
-import Page from '@pages/activities'
+import ActivityPage from '@pages/activities'
 ---
 
-<Layout title='Actividades | Comité de Estudiantes de Ing. Ciencias de la Computación'
-        description='Descubre las actividades y eventos organizados por el Comité de Estudiantes de Ingeniería Ciencias de la Computación de la PUCMM Campus Santiago'>
-  <Page client:only="react" />
+<Layout
+  title="Actividades | Comité de Estudiantes de Ing. Ciencias de la Computación"
+  description="Descubre las actividades y eventos organizados por el Comité de Estudiantes de Ingeniería Ciencias de la Computación de la PUCMM Campus Santiago"
+>
+  <ActivityPage client:only="react" />
 </Layout>

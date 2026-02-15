@@ -5,7 +5,7 @@ import Title from '@components/title/Title'
 import useActivitiesPage from '@lib/hooks/useActivitiesPage'
 import usePagination from '@lib/hooks/usePagination'
 
-export default function Page() {
+export default function ActivityPage() {
   const { page, handleNextPage, handlePrevPage, handleGoToPage } = usePagination()
   const { paginatedActivitiesData, isLoading } = useActivitiesPage({ page, perPage: 5 })
 

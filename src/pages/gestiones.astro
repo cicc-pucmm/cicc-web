@@ -1,11 +1,13 @@
 ---
-import Layout from '@layouts/Layout.astro'
-import DirectivesPage from '@pages/directives'
+import Layout from "@layouts/Layout.astro";
+import DirectivesPage from "@pages/directives";
+import GoogleAnalytics from "src/components/_html/GoogleAnalytics.astro";
 ---
 
 <Layout
   title="Gestiones | Comité de Estudiantes de Ing. Ciencias de la Computación"
   description="Explora las gestiones del Comité de Estudiantes de Ingeniería Ciencias de la Computación de la PUCMM Campus Santiago"
 >
+  <GoogleAnalytics />
   <DirectivesPage client:only="react" />
 </Layout>

@@ -1,8 +1,10 @@
 ---
-import Layout from '@layouts/Layout.astro'
-import Page from '@pages/index'
+import Layout from "@layouts/Layout.astro";
+import Page from "@pages/index";
+import GoogleAnalytics from "src/components/_html/GoogleAnalytics.astro";
 ---
 
 <Layout>
+  <GoogleAnalytics />
   <Page client:only="react" />
 </Layout>

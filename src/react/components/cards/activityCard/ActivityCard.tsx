@@ -23,7 +23,7 @@ export default function ActivityCard({ activity }: ActivityProps) {
             target="_blank"
             rel="noopener noreferrer"
             href={activity.href}
-            className="w-[90%] p-2 mt-auto mb-4 lg:mb-0 text-xl font-medium text-center transition-all rounded-2xl bg-primary hover:scale-105 hover:bg-primary/90"
+            className="w-[90%] p-2 mt-auto mb-4 text-xl font-medium text-center transition-all rounded-2xl bg-primary hover:scale-105 hover:bg-primary/90"
           >
             <span className="text-white">Ver más</span>
           </a>
